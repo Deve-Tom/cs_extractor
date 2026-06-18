@@ -1,0 +1,13 @@
+doubao:
+  api_key: "{your_api_key}"
+  base_url: "https://ark.cn-beijing.volces.com/api/v3"
+  model: "{your_model_name}"
+  temperature: 0.1
+  top_p: 0.7
+  max_tokens: 2000
+  max_retries: 3
+
+pipeline:
+  concurrency: 3
+  input_path: "data/input/task2_conversations.json"
+  output_path: "data/output/results_moke.json"
